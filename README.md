@@ -17,7 +17,9 @@ Step 2. Add the dependency
 	        implementation 'com.github.o199666:CwjDotView:Tag'
 	}
 
-代码：
+#代码：
+
+
  var dot4 = DotView(
             context = this,//当前
             number = 88,//数字 如果不写/0 就是小圆点。
@@ -30,7 +32,6 @@ Step 2. Add the dependency
         )
         //设置指定view之前
         dot4.setTargetView(img1)
-        
         //清除       
         dot4.remove(img1)
         
