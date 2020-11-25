@@ -2,10 +2,10 @@
 1.0消息小红点，支持数字显示。 默认右上角，可以选择是否越界显示，字体颜色，背景颜色等任意修改
 使用如下
     
-    ![](http://www.baidu.com/img/bdlogo.gif) 
 
-
-
+ [![Download](https://github.com/o199666/CwjDotView/blob/master/app/img/img1.jpg)](https://bintray.com/linchaolong/maven/imagepicker/_latestVersion)
+ 
+ 
 Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
@@ -17,7 +17,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.o199666:CwjDotView:Tag'
+	        implementation 'com.github.o199666:CwjDotView:1.1'
 	}
 
 
