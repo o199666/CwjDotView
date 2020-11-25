@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="标题"
+        android:background="#0091EA"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:background="#0091EA"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="标题2"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+ <ImageView
+     android:id="@+id/img1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:src="@mipmap/ic_launcher_round"
+     >
+
+
+ </ImageView>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="#4AE0FA"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/ll_tv"
+            android:background="#FBF8F8"
+            android:layout_width="wrap_content"
+            android:text="我是布局里面View"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4AE0FA"
+        android:text="清除圆点"></Button>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4AE0FA"
+        android:text="重绘"></Button>
+</LinearLayout>

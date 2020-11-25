@@ -1,0 +1,3 @@
+include ':dotview'
+include ':app'
+rootProject.name = "CwjDotView"
