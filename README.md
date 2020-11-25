@@ -3,7 +3,7 @@
 使用如下
     
 
- [![Download](https://github.com/o199666/CwjDotView/blob/master/app/img/img1.jpg)](https://bintray.com/linchaolong/maven/imagepicker/_latestVersion)
+ [![Download](https://github.com/o199666/CwjDotView/blob/master/img/img1.svg)](https://github.com/o199666/CwjDotView/blob/master/img/img1.svg)
  
  
 Add it in your root build.gradle at the end of repositories:
