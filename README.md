@@ -1,6 +1,9 @@
 # CwjDotView
 1.0消息小红点，支持数字显示。 默认右上角，可以选择是否越界显示，字体颜色，背景颜色等任意修改
 使用如下
+    
+    ![](http://www.baidu.com/img/bdlogo.gif) 
+
 
 
 Add it in your root build.gradle at the end of repositories:
