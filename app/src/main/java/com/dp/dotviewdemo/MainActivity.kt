@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         var dot4 = DotView(
             context = this,//当前
             number = 88,//数字 如果不写/0 就是小圆点。
-            bgcolor = R.color.purple_500,//背景色
+            bgcolor = R.color.red,//背景色
             textColor = R.color.white,//字体颜色
             dotRadioSize = 20f,//不带数字的圆点的大小
             numberDotSize = 50f,//带有数字的圆点的 大小
