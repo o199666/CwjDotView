@@ -17,23 +17,25 @@ Step 2. Add the dependency
 	        implementation 'com.github.o199666:CwjDotView:Tag'
 	}
 
-#代码：
 
-
- var dot4 = DotView(
-            context = this,//当前
-            number = 88,//数字 如果不写/0 就是小圆点。
-            bgcolor = R.color.red,//背景色
-            textColor = R.color.white,//字体颜色
-            dotRadioSize = 20f,//不带数字的圆点的大小
-            numberDotSize = 50f,//带有数字的圆点的 大小
-            numberTextSize = 35f,//文字大小。
-            isOverstep = false//是否越界 越界默认圆心为准
-        )
-        //设置指定view之前
-        dot4.setTargetView(img1)
-        //清除       
-        dot4.remove(img1)
+代码：kotlin 
+ 
+ 
+	
+	 var dot4 = DotView(
+		    context = this,//当前
+		    number = 88,//数字 如果不写/0 就是小圆点。
+		    bgcolor = R.color.red,//背景色
+		    textColor = R.color.white,//字体颜色
+		    dotRadioSize = 20f,//不带数字的圆点的大小
+		    numberDotSize = 50f,//带有数字的圆点的 大小
+		    numberTextSize = 35f,//文字大小。
+		    isOverstep = false//是否越界 越界默认圆心为准
+		)
+		//设置指定view之前
+		dot4.setTargetView(img1)
+		//清除       
+		dot4.remove(img1)
         
         
         
