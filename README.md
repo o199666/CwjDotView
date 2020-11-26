@@ -2,10 +2,10 @@
 1.0消息小红点，支持数字显示。 默认右上角，可以选择是否越界显示，字体颜色，背景颜色等任意修改
 使用如下
   
-		[博客文档-点这里](https://blog.csdn.net/qq_26841579/article/details/110172885 )
+[博客文档-点这里](https://blog.csdn.net/qq_26841579/article/details/110172885 )
 
 
-	 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201126111116923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2ODQxNTc5,size_16,color_FFFFFF,t_70#pic_center)
+![效果图](https://img-blog.csdnimg.cn/20201126111116923.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2ODQxNTc5,size_16,color_FFFFFF,t_70#pic_center)
 
  
 Add it in your root build.gradle at the end of repositories:
