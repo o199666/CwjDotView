@@ -39,9 +39,5 @@ Step 2. Add the dependency
 		dot4.setTargetView(img1)
 		//清除       
 		dot4.remove(img1)
-        
-        
-        
-        
-        
-        
+		
+		
