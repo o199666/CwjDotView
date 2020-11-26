@@ -40,4 +40,18 @@ Step 2. Add the dependency
 		//清除       
 		dot4.remove(img1)
 		
-		
+代码：如果觉得太麻烦直接用默认的就好了
+
+				//默认小圆点
+				var dot1 = DotView(this)
+				dot1.setTargetView(tv1)
+				
+				
+				
+				//默认数字
+				var dot3 = DotView(
+				    this,//当前
+				    9  //数字
+				)
+				dot3.setTargetView(img)
+				
